@@ -1,16 +1,14 @@
 .card {
 	height: 420px;
 	width: 300px;
-	background: var(--serpent);
+
+	background: #f2f2f2;
+	box-shadow: inset 5px 5px 15px #999999, inset -8px -8px 20px #ffffff;
 	display: inline-block;
-	padding: 1em;
+	padding: 1.5em;
 	border-radius: 10px;
 	z-index: 1;
-	position: relative;
-	backdrop-filter: blur(10px);
-	border: solid 2px transparent;
-	background-clip: padding-box;
-	box-shadow: 10px 10px 10px rgba(46, 54, 68, 0.03);
+
 	margin: 2em;
 	color: black;
 }

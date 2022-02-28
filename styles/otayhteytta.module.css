@@ -3,14 +3,14 @@
 	background-size: cover;
 	height: 50vh;
 	margin-top: 2em;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 }
 
 .kartta {
 	height: 100%;
 	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .iframe {
 	width: 60vw;
