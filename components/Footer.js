@@ -34,7 +34,7 @@ export default function Footer() {
 				<div className={styled.div}>
 					<p>Hämeentie 2 Puistolinna</p>
 					<p>30100 Forssa</p>
-					<p>Avoinna ma-pe 9-17, la 9-14</p>
+					<p>Avoinna ma-pe 10-18, la 9-14</p>
 				</div>
 
 				<div className={styled.div}>
