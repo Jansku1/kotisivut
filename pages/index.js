@@ -15,7 +15,7 @@ export default function Home() {
 				/>
 				<meta
 					name="keywords"
-					conntent="Jansku, ompelimo, langat, Forssa, myymälä, lanka, käsityö, lankavalikoima, vetoketjun vaihto, lahkeiden lyhennys "
+					conntent="Jansku, ompelimo, langat, Forssa, myymälä, lanka, käsityö, lankavalikoima, vetoketjun vaihto, lahkeiden lyhennys, Janskun,koukut , puikot,Forssa, onpelutarvikkeet "
 				/>
 				<meta name="robots" content="index,follow" />
 			</Head>
