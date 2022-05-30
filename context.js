@@ -13,13 +13,7 @@ export const AppProvider = ({ children }) => {
 		setIsSidebarOpen(false);
 	};
 
-	const [ name, setName ] = useState('');
-	const [ address, setAdress ] = useState('');
-	const [ postalcode, setPostalcode ] = useState('');
-	const [ city, setCity ] = useState('');
-	const [ email, setEmail ] = useState('');
-	const [ phone, setPhone ] = useState('');
-	const [ orders, setOrders ] = useState([]);
+	
 	return (
 		<AppContext.Provider
 			value={{
@@ -29,20 +23,7 @@ export const AppProvider = ({ children }) => {
 				closeSidebar,
 				showProducts,
 				setShowProducts,
-				name,
-				setName,
-				address,
-				setAdress,
-				postalcode,
-				setPostalcode,
-				city,
-				setCity,
-				email,
-				setEmail,
-				phone,
-				setPhone,
-				orders,
-				setOrders
+				
 			}}
 		>
 			{children}
